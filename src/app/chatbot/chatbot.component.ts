@@ -85,7 +85,7 @@ autoGrow(event: any): void {
 async getApiKey(): Promise<string> {
   try {
     const headers = new HttpHeaders({
-      Authorization: `Bearer ${environment.authToken}`
+      Authorization: `Bearer ${environment.AUTH_TOKEN}`
     });
 
     const response = this.http.get<{ apiKey: string }>('/api/getApiKey', { headers });
