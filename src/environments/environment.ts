@@ -1,4 +1,4 @@
 export const environment = {
-  production: false
-  // authToken: 'add your own authToken'
+  production: false,
+  authToken:'FbNQs4XhZqszRuyyCTL7ljfU'
 };
